@@ -44,4 +44,4 @@ jobs:
         uses: softprops/action-gh-release@v2
         if: github.ref_type == 'tag'
         with:
-          files: aper
+          files: aper.exe
