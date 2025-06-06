@@ -44,5 +44,5 @@ jobs:
         if: github.ref_type == 'tag'
         with:
           files: |
-            dist/aper.exe
+            dist/*.exe
             dist/aper
